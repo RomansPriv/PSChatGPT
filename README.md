@@ -4,10 +4,11 @@ PowerShell into the ChatGPT OpenAI API via REST.
 
 ## Prerequisites
 
-1. A user account on chatGPT. Create one with your e-Mail address and mobile number, or use an existing microsoft or google account
-2. An API-Key. Create one in your user profile and store it as secret with the name ChatGptAPI (Set-Secret) in your SecretStore.
+1. Needs Powershell 7x to work.
+2. A user account on chatGPT. Create one with your e-Mail address and mobile number, or use an existing microsoft or google account.
+3. An API-Key. Create one in your user profile and store it as secret with the name ChatGptAPI (Set-Secret) in your SecretStore.
 If you are not familiar with PowerShell SecretManagement, read my [BlogPosts](https://www.powershell.co.at/powershell-secrets-management-part-1-introduction/) about it.
-3. Download (clone) my repo and run . ./CodeCompletion.ps1
+4. Download (clone) my repo and run . ./CodeCompletion.ps1
 
 ## Usage
 
