@@ -2,7 +2,7 @@ function Get-AIAnswer
     {
         [CmdLetBinding()]
         param (
-        [String]$apiKey = (Get-Secret -Name ChatGptAPI|convertfrom-Securestring -AsPlainTex),
+        [String]$apiKey = (Get-Secret -Name ChatGptAPI|convertfrom-Securestring -AsPlainText),
         
         [ValidateSet("text-davinci-003", "code-cushman-001", "code-davinci-001")]
         [String]$model = "text-davinci-003",
